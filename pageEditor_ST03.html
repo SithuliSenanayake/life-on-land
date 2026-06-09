@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - 3</title>
+
+    <link rel="stylesheet" href="cssfiles/pageEditor_validator.css"> 
+
+</head>
+
+<body id="body">
+    <div class="wrapper">
+    
+        <header id="header">
+            <h1>
+                <img src="images/lifeonlandLogo.jpg" alt="Logo" id="img">
+                Life on Land
+            </h1>
+            
+            <nav id="nav">
+                <a href="#">Home</a>
+                <a href="contentpage.html">Content</a>
+                <a href="#">Volunteer</a>
+                <a href="#">Table</a>
+                <a href="#">User Profile</a>
+                <a href="feedbackform.html">Feedback</a>
+                <a href="#">Sitemap</a>
+                <a href="teampage.html">Team</a>
+            </nav>
+        </header>
+
+        <section class="stud">
+            <h2>Student name : S.A.S.D.Senanayake</h2>
+            <br>
+            <h2>Student role : Student 3</h2>
+        </section>
+
+        <div class="container">
+
+            <main>
+
+                <section>
+                    <h2 id="feedback">Feedback Page</h2>
+                        <h3>Technical Description</h3>
+                            <p>This page is a feedback form designed using HTML and CSS. The HTML structure employs key semantic tags like &lt;form&gt;, &lt;fieldset&gt;, and &lt;legend&gt; to group related form elements and improve the form's clarity. The &lt;form&gt; tag defines the form's action and method (POST), ensuring secure data submission. The enctype="multipart/form-data" attribute allows file uploads. Inside the form, &lt;fieldset&gt; elements are used to categorize information into sections such as "Personal Details," "Feedback Details," and "Rating," with each section labeled appropriately using &lt;label&gt; tags. The use of input types such as text, email, tel, date, datetime-local, and radio allows for a variety of user interactions. CSS styling is applied to enhance design and functionality, such as adding padding, borders, and background colors for form elements. Additionally, hover effects on the submit button and radio button labels improve user interactivity. The form uses responsive styling to maintain usability across different screen sizes.</p> 
+                        
+                        <h3>Accessibility</h3>
+                            <p>Accessibility is a key focus in this feedback form. Key elements like alt text for images ensure that visually impaired users have an understanding of the content through screen readers. The use of &lt;label&gt; tags associated with each form input allows screen readers to correctly announce the labels when users navigate through the form. The for attribute in labels is linked to the respective input fields, improving navigation for users relying on assistive technologies. Additionally, the radio buttons and checkboxes are properly labeled to provide context for their options. Placeholder text is used in text inputs to give users clear guidance on what information is required. Furthermore, the form supports keyboard navigation, allowing users to easily tab through the fields. The form's structure and styling are optimized for users with disabilities, ensuring that the form is both usable and accessible.</p>
+                        
+                        <h3>Link to the validation page</h3> 
+                            <p><a href="validation_ST03.html#feedbackVal">Feedback Page Validation</a></p> 
+
+                        <h3>Link to the page</h3>
+                            <p><a href="feedbackform.html">The Feedback Page</a></p>
+                </section>
+
+                <section>
+                    <h2 id="team">Team Page</h2>
+                        <h3>Technical Description</h3>
+                            <p>The page structure is primarily built using HTML elements such as &lt;header&gt;, &lt;main&gt;, and &lt;footer&gt;. These provide the framework for organizing the content and separating sections for the website. The &lt;h1&gt; tag is used to define the main heading, while the &lt;div&gt; containers are utilized to group related content, like the team members. Each team member is placed inside a .team-member container, with the use of position: relative and position: absolute properties ensuring that details (such as name and role) appear at the bottom of the image.</p> 
+                            <p>The CSS utilizes Flexbox (display: flex) to create a responsive, grid-like layout for the team members, allowing them to wrap and align dynamically. Each team member’s image is styled with a border, height, and width specifications, while the transform property on hover creates an interactive zoom effect. Additionally, the details container is hidden by default (opacity: 0) and revealed when the .team-member is hovered over or focused (using :hover and :focus selectors), ensuring an engaging and accessible interaction. Transitions are added to provide smooth effects when hovering over images and displaying the details. The tabindex="0" on each .team-member allows keyboard users to focus on team members, making the page more accessible.</p>
+                        
+                        <h3>Accessibility</h3>
+                            <p>Accessibility has been incorporated using several techniques to ensure the page is usable by all users, including those with visual or motor impairments. The alt attribute is applied to images, which is essential for screen readers, providing descriptive text for each team member's photo. The tabindex="0" allows keyboard navigation, enabling users to focus on individual team member sections, especially important for those using keyboard-only navigation or assistive technologies. The details section, hidden by default, is revealed through hover and focus events, ensuring that both mouse and keyboard users can interact with the content. The focus states are managed with the :focus pseudo-class, making the page navigable for users with disabilities. The layout uses a simple structure with proper semantic HTML, ensuring compatibility with screen readers and improving the overall accessibility of the page.</p>
+
+                        <h3>Link to the validation page</h3> 
+                            <p><a href="validation_ST03.html#teamVal">Team Page Validation</a></p>     
+                        
+                        <h3>Link to the page</h3>
+                            <p><a href="teampage.html">The Team Page</a></p>
+                </section>
+
+                <section>
+                    <h2 id="content">Content Page</h2>
+                        <h3>Technical Description</h3>
+                            <p>The HTML structure of the page is designed using semantic elements like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;footer&gt;, which help organize content and improve the page's accessibility and SEO. The &lt;header&gt; contains the main title and navigation menu, while the &lt;nav&gt; tag provides links to different sections of the site, ensuring easy navigation. The content is divided into sections using &lt;section&gt;, each representing a topic like "Forests" and "Wildlife." These sections include relevant images and text to support the content. Key CSS properties, such as font-size, color, and margin, are used to style the page. The external CSS files (template_style.css and content_style.css) handle overall page layout, colors, typography, and responsiveness, ensuring a user-friendly design across different devices. The id attributes are used for linking navigation and "go to top" functionality.</p> 
+
+                        <h3>Accessibility</h3>
+                            <p>Accessibility is prioritized by using proper HTML elements to ensure the content is accessible to all users. The &lt;img&gt; tags have descriptive alt attributes, providing text alternatives for screen readers. Semantic HTML tags like &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;nav&gt; help organize the page structure, making it easier for assistive technologies to understand the content. Keyboard navigation is supported through anchor links (&lt;a&gt;) for both top-of-page and section navigation. The use of appropriate heading tags (&lt;h3&gt;, &lt;h2&gt;, &lt;h1&gt;) maintains a logical content structure, which benefits screen readers and users navigating via keyboard. The Go to Top link allows users to easily navigate back to the header. These considerations help ensure the page is accessible to individuals with disabilities.</p>
+
+                        <h3>Link to the validation page</h3>
+                            <p><a href="validation_ST03.html#contentVal">Content Page Validation</a>
+
+                            
+                        <h3>Link to the page</h3>
+                            <p><a href="contentpage.html">The Content Page</a></p>
+                </section>
+
+                <section>
+                    <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                    <ul>
+                        <br>
+                        <li class="liststylenone">Challanges : </li>
+                        <br>
+                        <ol>
+                            <li>Creating the website in a visually apealing layout.</li>
+                            <ul>
+                                <li>Used semantic HTML (nav, main, header, footer)</li>
+                            </ul>
+                            <li>Ensuring the page layout adapts well across different screen sizes.</li>
+                            <ul>
+                                <li>Used flexbox for the team section and relative units (%, vh, vw) for better responsiveness.</li>
+                            </ul>
+                            <li>Making the navigation menu intuitive and ensuring easy access to different sections.</li>
+                            <ul>
+                                <li>Used a structured navigation bar with labeled links.</li>
+                                <li>Added internal linking within content sections for better user experience.</li>
+                            </ul>
+                            <li>Making the feedback form user-friendly while maintaining accessibility</li>
+                            <ul>
+                                <li>Used proper label elements linked to form controls for better screen reader support.</li>
+                                <li>Included placeholder text and title attributes to guide users.</li>
+                                <li>Ensured sufficient contrast for readability and hover effects for better visibility.</li>
+                            </ul>
+                            <li>Creating smooth, interactive effects without using JavaScript.</li>
+                            <ul>
+                                <li>Implemented CSS-only transitions for hover effects, ensuring a dynamic experience without compromising security.</li>
+                            </ul>
+                        </ol>
+
+                        <br><br>
+                        <li class="liststylenone">Lessons Learned : </li>
+                        <br>
+                        <ul class="listdisc">
+                            <li>Proper use of semantic HTML improves accessibility and usability.</li>
+                            <li>Flexbox simplifies responsive design and layout consistency.</li>
+                            <li>Well-structured navigation enhances the overall usability of the website.</li>
+                            <li>CSS can effectively replace JavaScript for basic interactivity.</li>
+                        </ul>
+                    </ul>
+                    <br>
+                </section>
+
+                <section>
+                    <h2 id="compliance"> Compliance</h2>
+                    <br>
+                    <p>The web pages I created comply with Janet regulations by prioritizing accessibility, data protection, security, content integrity, and legal compliance. This section outlines how these principles have been applied in practice, demonstrating a clear understanding of the required standards.</p>
+                    <ol class="listnum">
+                        <li>Accessibility</li>
+                        <ul>
+                            <li>Uses alt text for images, semantic HTML, and keyboard-friendly navigation</li>
+                            <li>Proper form labels enhance screen reader compatibility.</li>
+                        </ul>
+                        <li>Data Protection</li>
+                        <ul>
+                            <li>Uses post method for secure form submission.</li>
+                            <li>Validates inputs to prevent errors and security risks.</li>
+                        </ul>
+                        <li>Security</li>
+                        <ul>
+                            <li>Implements CSS-only transitions for interactive elements, minimizing security vulnerabilities.</li>
+                            <li>External stylesheets improve security and maintainability</li>
+                        </ul>
+                        <li>Content Integrity</li>
+                        <ul>
+                            <li>Fact-based environmental content.</li>
+                            <li>Easy navigation with internal linking.</li>
+                        </ul>
+                        <li>Legal Compliance</li>
+                        <ul>
+                            <li>Copyright notice included in the footer.</li>
+                            <li>Ensures proper media attribution.</li>
+                        </ul>
+                    </ol>
+                    
+                    <p>Overall, the pages align with Janet regulations by prioritizing accessibility, security, and legal compliance.</p> 
+                    <br>
+
+                        
+                </section>
+
+                <section>
+                    <h2 id="ref">References</h2>
+                    <br>
+                        <ul class="ref">
+                            <li>Carvalho, K. (2024). Desertification: Causes, Effects, And Solutions. <i>What is desertification.</i> Available from <a href="https://earth.org/what-is-desertification/">https://earth.org/what-is-desertification/</a>.</li>
+                            <li>Featherman, H. (n.d.). Six of the “Greenest” National Forests. <i>Six of the “Greenest” National Forests.</i> Available from <a href="https://www.nationalforests.org/blog/six-of-the-greenest-national-forests">https://www.nationalforests.org/blog/six-of-the-greenest-national-forests</a>.</li>
+                            <li>How to conserve your land. (n.d.). <i>How to conserve your land.</i> Available from <a href="https://landtrustalliance.org/take-action/conserve-your-land/how-to-conserve-your-land">https://landtrustalliance.org/take-action/conserve-your-land/how-to-conserve-your-land</a>.</li>
+                            <li>The world’s top 10 wildlife destinations. (2018). <i>Fox News,</i> 21 March. Available from <a href="https://www.foxnews.com/travel/the-worlds-top-10-wildlife-destinations">https://www.foxnews.com/travel/the-worlds-top-10-wildlife-destinations</a>.</li>
+                        </ul>
+                    <br>
+                </section>
+
+                <p class="top"><a href="#header">Go top</a></p>
+            </main>
+
+            <!-- Sidebar area -->
+            <aside>
+                <h3>Core pages developed:</h3>
+
+                <ul class="top-level-ul">
+                    
+                    <li>Student 3</li>
+                        <ul>
+                            <li><a href="#feedback">Feedback page</a> </li>
+                            <li><a href="#team">Team page</a></li>
+                            <li><a href="#content">Content page</a></li>
+                        </ul>
+                    
+                    <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                    <li><a href="#compliance">Compliance</a></li>
+                    <li><a href="#ref">References</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer id="footer">
+            <a href="pageEditor_ST03.html">Student 3 Page Editor</a>
+            <p>&copy; Copyright 2025 |  Group 11 - Team 05</p>
+        </footer>
+    </div>
+</body>
+</html>
